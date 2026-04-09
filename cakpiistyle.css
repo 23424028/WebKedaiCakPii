@@ -1,0 +1,13 @@
+/* style.css */
+html {
+    scroll-behavior: smooth;
+}
+
+.hero-bg {
+    /* Background gambar wajan yang redup agar teks dan kartu di depannya terbaca jelas */
+    background: linear-gradient(rgba(20, 10, 0, 0.8), rgba(20, 10, 0, 0.9)), 
+                url('https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
